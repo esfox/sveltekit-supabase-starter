@@ -1,0 +1,9 @@
+
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run env -- concurrently -g \
+"npm run env -- lint-staged --concurrent false" \
+"npm run env -- tsc --noEmit" \
+"git diff --cached --name-only"
+
