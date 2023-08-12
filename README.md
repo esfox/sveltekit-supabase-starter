@@ -8,6 +8,7 @@ Starter project that uses SvelteKit and Supabase.
 - Supabase
 - Tailwind
 - DaisyUI (Tailwind component library)
+- FontAwesome (for icons)
 
 ## Setup
 
